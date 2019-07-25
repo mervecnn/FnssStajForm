@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+.clearfix:after{
+	visibility:hidden;
+	display:block;
+	clear:both;
+	content:"";
+}
+
+
+body{
+font-family: 'Raleway', sans-serif;	
+}
+
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
+.container{
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.nav_header{
+	background:#1a2e50;
+	min-height:40px;
+}
+
+.address_menu{
+	float:left;
+}
+.social_icon{
+	float:right;
+}
+
+.address_menu ul li,.social_icon ul li{
+	display:inline-block;	
+}
+.address_menu ul,.social_icon ul{
+	margin-bottom:0;
+}
+
+.address_menu ul li a span i,.social_icon ul li a span i{
+	color:#f9b707;
+	font-size:22px;
+}
+
+.address_menu ul li a{
+	display:block;
+	margin:0 6px;
+}
+
+.address_menu ul li a span,.social_icon ul li a span{
+	display:inline-block;
+	vertical-align:middle;
+}
+.address_menu ul li a span.txt:hover,.social_icon ul li a span i:hover{
+	color:#f9b707;
+}
+.social_icon ul li a span i,.address_menu ul li a span i{
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-ms-transition:all 0.3s ease-in;
+	-o-transition:all 0.3s ease-in;
+}
+
+.social_icon ul li a span i:hover{
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.3);
+	transition:all 0.3s ease-in;
+	-webkit-transition:all 0.3s ease-in;
+	-ms-transition:all 0.3s ease-in;
+	-o-transition:all 0.3s ease-in;
+}
+
+
+.wrapper{
+margin: 13px 0px;
+}
+
+.address_menu ul li a span.txt{
+	color:#fff;
+}
+
+.social_icon ul li a span i{
+color:#fff;
+font-size:17px;
+}
+.social_icon ul li a span{
+margin-left:4px;
+margin-right:4px;
+}
+
+.secondary_navbar .custom_navbar{
+	border-radius:0;
+	background:#272727;
+	border:none;
+}
+.navbar{
+	margin-bottom:0;
+}
+.navbar-brand{
+	height:100px;
+}
+
+.custom_size ul li a{
+	text-transform:capitalize;
+}
+.custom_size > ul{
+	margin-top:10px;
+}
