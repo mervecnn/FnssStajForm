@@ -4,8 +4,14 @@
 
 <form class="form-horizontal">
 <fieldset>
-<legend>FNSS STAJ KAYIT FORMU</legend>
-
+<nav aria-label="...">
+  <ul class="pagination">
+	<li class="page-item active"><a class="page-link" href="index.php">Personel Bilgi Formu</a></li>
+    <li class="page-item"><a class="page-link" href="sayfa2.php">Bilgilendirme Formu</a></li>
+    <li class="page-item"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
+</li>
+  </ul>
+</nav>
 <div class="form-group">
   <label class="col-md-4 control-label" for="fn">Ad:</label>  
   <div class="col-md-4">
@@ -119,15 +125,11 @@
   </div>
 </div>
 <div>
-<a href="sayfa2.php"> BİLGİLENDİRME FORMUNA GEÇ</a></br>
-<a href="saglik.php"> SAĞLIK FORMUNA GEÇ</a></br>
+<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
- <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
-
-<input class="button"   type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul ediyorum
+<input class="button"   type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul ediyorum </br>
 <input class="button"  type="submit" name="submit" value="Gönder"  />
-
-
+ 
 </div>
 </fieldset>
 </form>
