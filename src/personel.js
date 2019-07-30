@@ -1,23 +1,33 @@
-/* (() => {
-    const adElement = document.getElementById('ad');
-	console.log('adElement: ' + adElement);
-    adElement.onchange = (_) => {
-        console.log('setting name to: ' + adElement.value);
-        Cookies.set('ad', adElement.value);
-    };
-    let oldText = Cookies.get('ad');
-    console.log('oldText: ' + oldText);
-    adElement.value = oldText;
-})() */
 (() => {
+	const ids = [
+		'ad',
+		'soyad',
+		'tc',
+		'dtarihi',
+		'email',
+		'dyeri',
+		'ikametgah',
+		'il',
+		'ilce',
+		'sgkno',
+		'iletisimnumarasi',
+		'universiteadi',
+		'bolumadi',
+		'sinif',
+		'departman',
+		'anneadi',
+		'babaadi'
+	];
     const connectCookieEvent = (id) => {
+		console.log(id);	
         const element = document.getElementById(id);
         element.onchange = _ =>  {
             Cookies.set(id, element.value);
         };
         let oldText = Cookies.get(id);
-        element.value = oldText;
+		if (oldText)
+			element.value = oldText;
         console.log('connected cookie event to: ' + id);
     };
-    connectCookieEvent('ad');
+	ids.forEach(connectCookieEvent);
 })()
