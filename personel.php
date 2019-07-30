@@ -9,8 +9,7 @@
 <meta charset="utf-8">
 <form class="form-horizontal" action="personelkontrol.php" method="Post">
 </head>
-<fieldset>
-<body>
+<fieldset id="inputs">
 <nav aria-label="...">
   <ul class="pagination">
 	<li class="page-item active"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>

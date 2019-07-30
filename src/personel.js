@@ -1,23 +1,8 @@
 (() => {
-	const ids = [
-		'ad',
-		'soyad',
-		'tc',
-		'dtarihi',
-		'email',
-		'dyeri',
-		'ikametgah',
-		'il',
-		'ilce',
-		'sgkno',
-		'iletisimnumarasi',
-		'universiteadi',
-		'bolumadi',
-		'sinif',
-		'departman',
-		'anneadi',
-		'babaadi'
-	];
+    const ids = Array.from(document.getElementById('inputs').children)
+        .filter(e => e.tagName === 'div' && e.className === 'form-group')
+        .map(e => e.getElementsByTagName('div')[0].id);
+        
     const connectCookieEvent = (id) => {
 		console.log(id);	
         const element = document.getElementById(id);
