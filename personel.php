@@ -94,7 +94,7 @@
   <label class="col-md-4 control-label" for="iletisimnumarasi">İletişim numarası:</label>  
   <div class="col-md-4">
   <input id="iletisimnumarasi" name="iletisimnumarasi" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
-    
+  
   </div>
 </div>
 <div class="form-group">
