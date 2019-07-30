@@ -1,8 +1,4 @@
 <?php 
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-
        $ad=$_POST["ad"];
 	   $soyad=$_POST["soyad"];
 	   $dtarihi=$_POST["dtarihi"];
@@ -26,5 +22,6 @@ personel(ad,soyad,dtarihi,email,dyeri,ikametgah,il,ilce,sgkno,iletisimnumarasi,u
 ,'$dtarihi','$email','$dyeri','$ikametgah','$il','$ilce','$sgkno','$iletisimnumarasi','$universiteadi','$bolumadi','$sinif','$dep','$anneadi','$babaadi','$tc')");
 
 mysqli_close($baglan);
+header("Location: bilgilendirme.php");
 
 ?>

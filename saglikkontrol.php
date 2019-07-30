@@ -16,5 +16,6 @@ saglik(ad,soyad,dtarihi,telnumarasi,hastalik,ilac,ameliyat,boy,sigara,alerji,tc)
 ,'$dtarihi','$telnumarasi','$hastalik','$ilac','$ameliyat','$boy','$sigara','$alerji','$tc')");
 
 mysqli_close($baglan);
+header("Location: sonsayfa.html");
 
 ?>

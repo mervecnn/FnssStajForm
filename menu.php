@@ -63,8 +63,8 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:v	oid(0)" class="closebtn">
   <div class="overlay-content">
-    <a href="index.php">PERSONEL BİLGİ FORMU İÇİN TIKLAYINIZ</a>
-    <a href="sayfa2.php">STAJYER BİLGİLENDİRME FORMU İÇİN TIKLAYINIZ</a>
+    <a href="personel.php">PERSONEL BİLGİ FORMU İÇİN TIKLAYINIZ</a>
+    <a href="bilgilendirme.php">STAJYER BİLGİLENDİRME FORMU İÇİN TIKLAYINIZ</a>
     <a href="saglik.php">SAĞLIK BİLGİ FORMU İÇİN TIKLAYINIZ</a>
   </div>
 </div>

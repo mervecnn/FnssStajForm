@@ -7,8 +7,8 @@
    <body>
    <nav aria-label="...">
   <ul class="pagination">
-	<li class="page-item"><a class="page-link" href="index.php">Personel Bilgi Formu</a></li>
-    <li class="page-item active"><a class="page-link" href="sayfa2.php">Bilgilendirme Formu</a></li>
+	<li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
+    <li class="page-item active"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
     <li class="page-item"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
   </ul>
 </nav>
@@ -29,5 +29,6 @@ Yinelenen bir sayfa içeriğinin okuyucunun dikkatini dağıttığı bilinen bir
    <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
 <input class="button"   type="checkbox" name="checkbox" value="check" id="agree" />ŞARTLARI KABUL EDİYORUM </br>
+ <a href="saglik.php" class="button">gönder</a>
 
 </html>

@@ -1,13 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<form class="form-horizontal" action="kontrol2.php" method="Post">
+<form class="form-horizontal" action="saglikkontrol.php" method="Post">
+</head>
+<body>
 <fieldset>
 <nav aria-label="...">
   <ul class="pagination">   
-    <li class="page-item"><a class="page-link" href="index.php">Personel Bilgi Formu</a></li>
-    <li class="page-item"><a class="page-link" href="sayfa2.php">Bilgilendirme Formu</a></li>
+    <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
+    <li class="page-item"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
     <li class="page-item active"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
   </ul>
 </nav>
@@ -96,5 +102,6 @@
 <input class="button"  type="submit" name="submit" value="Gönder"  />
 
 </div>
+</body>
 </fieldset>
 </form>

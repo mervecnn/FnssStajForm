@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<form class="form-horizontal" action="kontrol.php" method="Post">
+<meta charset="utf-8">
+<form class="form-horizontal" action="personelkontrol.php" method="Post">
 </head>
 <fieldset>
 <body>
 <nav aria-label="...">
   <ul class="pagination">
-	<li class="page-item active"><a class="page-link" href="index.php">Personel Bilgi Formu</a></li>
-    <li class="page-item"><a class="page-link" href="sayfa2.php">Bilgilendirme Formu</a></li>
+	<li class="page-item active"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
+    <li class="page-item"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
     <li class="page-item"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
 </li>
   </ul>
@@ -143,7 +143,8 @@
 <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
 <input class="button"   type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul ediyorum </br>
-<input class="button"  type="submit" name="submit" value="Gönder"  />
+<input class="button"  type="submit" name="submit" value="Gönder" "/>
+
  
 </div>
 </fieldset>
