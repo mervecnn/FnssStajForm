@@ -6,8 +6,6 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="src/lib/js-cookie.js"></script>
-<script src="src/personel.js"></script>
 <meta charset="utf-8">
 <form class="form-horizontal" action="personelkontrol.php" method="Post">
 </head>
@@ -24,7 +22,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="ad">Ad:</label>  
   <div class="col-md-4">
-  <input id="ad" name="ad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="ad" name="ad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required=""> </input>
     
   </div>
 </div>
@@ -150,9 +148,11 @@
 
  
 </div>
+<script src="src/lib/js-cookie.js"></script>
+<script src="src/personel.js"></script>
 
 </fieldset>
-</body>
+
 </form>
 
 </html>
