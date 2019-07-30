@@ -61,7 +61,7 @@ body {
 <body>
 
 <div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:v	oid(0)" class="closebtn">
   <div class="overlay-content">
     <a href="index.php">PERSONEL BİLGİ FORMU İÇİN TIKLAYINIZ</a>
     <a href="sayfa2.php">STAJYER BİLGİLENDİRME FORMU İÇİN TIKLAYINIZ</a>
@@ -70,13 +70,13 @@ body {
 </div>
 
 <h2>ÖNCELİKLE ŞİMDİDEN FNSS SAVUNMA SİSTEMLERİ A.Ş'ye HOŞGELDİNİZ.</h2>
-<span style="font-size:28px;cursor:pointer" onclick="openNav()">&#9776; Bazı hatırlatmalar ve firmamızla ilgili ufak bir önbilgi vermek istiyoruz.</br>
+<span style="font-size:28px;cursor:pointer" > Bazı hatırlatmalar ve firmamızla ilgili ufak bir önbilgi vermek istiyoruz.</br>
 Firmamızın mesai saatleri hafta içi saat 08:00-17-00 arasındadır.Semt servislerimiz mevcuttur ve sizler bu olanaktan faydalanabilirsiniz!</br>
 FNSS'ye ulaşım için semt servislerini kullanacaklar için ilk gün mesai bitiminde servis ayarlaması yapılacaktır.İlk staj günü servisle gelmek isteyenler için detaylar aşağıdadır.(Sadece ilk güne özel saat 10.00'da şirkete gelebilirsiniz)</br>
 SERVİS ADRESİ:NUROL HOLDİNG MERKEZ BİNASI(Arjantin caddesi no-7)</br>
 SERVİS SAATİ:09:45 </br>
 STAJA GELİRKEN YANINIZDA GETİRMENİZ GEREKEN EVRAK LİSTESİ AŞAĞIDA BELİRTİLMİŞTİR </br> 1-Nüfus cüzdanı sureti </br> 2-İkametgah Belgesi </br> 3-Sabıkasızlık Kaydı</br> 4- SGK işe giriş bildirgesi </br> 5- 2 Adet Fotoğraf</br>  BAŞARI DİLEKLERİMİZLE......</br>
- <button> DEVAM ETMEK İÇİN TIKLAYINIZ</button>
+ <button onclick="openNav()">DEVAM ETMEK İÇİN TIKLAYINIZ</button>
 
  </span>
 

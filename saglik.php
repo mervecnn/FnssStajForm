@@ -2,7 +2,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<form class="form-horizontal">
+<form class="form-horizontal" action="kontrol2.php" method="Post">
 <fieldset>
 <nav aria-label="...">
   <ul class="pagination">   
@@ -12,72 +12,80 @@
   </ul>
 </nav>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="fn">AD:</label>  
+  <label class="col-md-4 control-label" for="ad">AD:</label>  
   <div class="col-md-4">
-  <input id="fn" name="fn" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="ad" name="ad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="ln">Soyad:</label>  
+  <label class="col-md-4 control-label" for="soyad">SOYAD:</label>  
   <div class="col-md-4">
-  <input id="ln" name="ln" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="soyad" name="soyad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="tc">TC KİMLİK NO:</label>  
+  <div class="col-md-4">
+  <input id="tc" name="tc" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="cmpny">Doğum Tarihi:</label>  
+  <label class="col-md-4 control-label" for="dtarihi">DOĞUM TARİHİ:</label>  
   <div class="col-md-4">
-  <input id="cmpny" name="cmpny" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="dtarihi" name="dtarihi" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="email">TELEFON NUMARASI:</label>  
+  <label class="col-md-4 control-label" for="telnumarasi">TELEFON NUMARASI:</label>  
   <div class="col-md-4">
-  <input id="email" name="email" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="telnumarasi" name="telnumarasi" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="add1">BİR HASTALIĞINIZ VAR MI?:</label>  
+  <label class="col-md-4 control-label" for="hastalik">BİR HASTALIĞINIZ VAR MI?:</label>  
   <div class="col-md-4">
-  <input id="add1" name="add1" type="text" placeholder="Varsa adını yazınız.." class="form-control input-md" required="">
+  <input id="hastalik" name="hastalik" type="text" placeholder="Varsa adını yazınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="add2">İLAÇ KULLANIYOR MUSUNUZ?:</label>  
+  <label class="col-md-4 control-label" for="ilac">İLAÇ KULLANIYOR MUSUNUZ?:</label>  
   <div class="col-md-4">
-  <input id="add2" name="add2" type="text" placeholder="Kullanıyorsanız adını yazınız.." class="form-control input-md">
+  <input id="ilac" name="ilac" type="text" placeholder="Kullanıyorsanız adını yazınız.." class="form-control input-md">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="city">HİÇ AMELİYAT OLDUNUZ MU?:</label>  
+  <label class="col-md-4 control-label" for="ameliyat">HİÇ AMELİYAT OLDUNUZ MU?:</label>  
   <div class="col-md-4">
-  <input id="city" name="city" type="text" placeholder="Olduysanız ne için yazınız.." class="form-control input-md" required="">
+  <input id="ameliyat" name="ameliyat" type="text" placeholder="Olduysanız ne için yazınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="zip">ALERJİNİZ VAR MI?:</label>  
+  <label class="col-md-4 control-label" for="alerji">ALERJİNİZ VAR MI?:</label>  
   <div class="col-md-4">
-  <input id="zip" name="zip" type="text" placeholder="Varsa neye yazınız.." class="form-control input-md" required="">
+  <input id="alerji" name="alerji" type="text" placeholder="Varsa neye yazınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="ctry">BOY:</label>  
+  <label class="col-md-4 control-label" for="boy">BOY:</label>  
   <div class="col-md-4">
-  <input id="ctry" name="ctry" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+  <input id="boy" name="boy" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
     
   </div>
 </div>
 <div class="form-group">
-  <label class="col-md-4 control-label" for="phone">SİGARA KULLANIYOR MUSUNUZ?:</label>  
+  <label class="col-md-4 control-label" for="sigara">SİGARA KULLANIYOR MUSUNUZ?:</label>  
   <div class="col-md-4">
-  <input id="phone" name="phone" type="text" placeholder="Kullanıyorsanız günde kaç tane yazınız.." class="form-control input-md" required="">
+  <input id="sigara" name="sigara" type="text" placeholder="Kullanıyorsanız günde kaç tane yazınız.." class="form-control input-md" required="">
     
   </div>
 </div>

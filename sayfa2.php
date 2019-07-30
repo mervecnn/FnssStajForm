@@ -29,5 +29,5 @@ Yinelenen bir sayfa içeriğinin okuyucunun dikkatini dağıttığı bilinen bir
    <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
 <input class="button"   type="checkbox" name="checkbox" value="check" id="agree" />ŞARTLARI KABUL EDİYORUM </br>
-<input class="button"  type="submit" name="submit" value="Gönder"  />
+
 </html>
