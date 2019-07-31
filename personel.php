@@ -18,6 +18,7 @@
       </li>
     </ul>
   </nav>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="ad">Ad:</label>
     <div class="col-md-4">
@@ -31,7 +32,7 @@
     <label class="col-md-4 control-label" for="soyad">Soyad:</label>
     <div class="col-md-4">
       <input id="soyad" name="soyad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md"
-        required="">      
+        required="">
     </div>
   </div>
 
@@ -42,6 +43,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="dtarihi">Doğum Tarihi:</label>
     <div class="col-md-4">
@@ -50,6 +52,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="email">Email Adresi:</label>
     <div class="col-md-4">
@@ -58,6 +61,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="dyeri">Doğum Yeri:</label>
     <div class="col-md-4">
@@ -66,6 +70,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="ikametgah">İkametgah adresi:</label>
     <div class="col-md-4">
@@ -73,6 +78,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="il">İl:</label>
     <div class="col-md-4">
@@ -80,6 +86,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="ilce">İlçe:</label>
     <div class="col-md-4">
@@ -88,6 +95,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="sgkno">Sgk no:</label>
     <div class="col-md-4">
@@ -96,6 +104,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="iletisimnumarasi">İletişim numarası:</label>
     <div class="col-md-4">
@@ -113,6 +122,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="bolumadi">Hangi bölümde okuyorsunuz? </label>
     <div class="col-md-4">
@@ -121,6 +131,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="sinif">Kaçıncı Sınıfsınız?</label>
     <div class="col-md-4">
@@ -129,6 +140,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="departman">Departman Adı:</label>
     <div class="col-md-4">
@@ -137,6 +149,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="anneadi">Anne adı:</label>
     <div class="col-md-4">
@@ -145,6 +158,7 @@
 
     </div>
   </div>
+
   <div class="form-group">
     <label class="col-md-4 control-label" for="babaadi">Baba adı:</label>
     <div class="col-md-4">
@@ -153,21 +167,17 @@
 
     </div>
   </div>
+  
   <div>
     <form action="#"
       onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
       <input class="button" type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul
       ediyorum </br>
-      <input class="button" type="submit" name="submit" value="Gönder" "/>
-
- 
-</div>
-<script src=" src/lib/js-cookie.js"> </script> 
-<script src="src/personel.js"></script>
-
+      <input class="button" type="submit" name="submit" value="Gönder" "/> 
+    </form>
+  </div>
+<script src=" src/lib/js-cookie.js"> </script> <script src="src/cookies.js"></script>
 </fieldset>
-
-</form>
 
 </html>
