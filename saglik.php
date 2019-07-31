@@ -3,15 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
   <form class="form-horizontal" action="saglikkontrol.php" method="Post">
 </head>
 
-<body>
-  <fieldset>
+<fieldset id="inputs">
     <nav aria-label="...">
       <ul class="pagination">
         <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
@@ -115,5 +114,7 @@
         <input class="button" type="submit" name="submit" value="Gönder" />
 
     </div>
-  </fieldset>
+	<script src=" src/lib/js-cookie.js"> </script> 
+	<script src="src/saglik.js"></script>
+</fieldset>
   </form>

@@ -2,13 +2,13 @@
 <html>
 
 <head>
-
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <meta charset="utf-8">
   <form class="form-horizontal" action="personelkontrol.php" method="Post">
 </head>
+
 <fieldset id="inputs">
   <nav aria-label="...">
     <ul class="pagination">
@@ -163,7 +163,8 @@
 
  
 </div>
-<script src=" src/lib/js-cookie.js"> </script> <script src="src/personel.js"></script>
+<script src=" src/lib/js-cookie.js"> </script> 
+<script src="src/personel.js"></script>
 
 </fieldset>
 
