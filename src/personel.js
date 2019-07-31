@@ -6,8 +6,12 @@
 			let x = Array.from(e.getElementsByClassName('col-md-4'))[1];
 			let y = Array.from(x.getElementsByClassName('input-md'))[0];
 			return y.id;
-		});
-    console.log(ids);
+        });
+    // console.log(ids);
+    console.log(Array.from(
+        document.getElementById('inputs')
+        .getElementsByClassName('input-md'))
+        .map(x => x.id));
     const connectCookieEvent = (id) => {
 		console.log(id);	
         const element = document.getElementById(id);
