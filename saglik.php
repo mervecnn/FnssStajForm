@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<form class="form-horizontal" action="saglikkontrol.php" method="Post">
+<head>
+  <meta charset="utf-8">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <form class="form-horizontal" action="saglikkontrol.php" method="Post">
 </head>
+
 <body>
-<fieldset>
-<nav aria-label="...">
-  <ul class="pagination">   
-    <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
-    <li class="page-item"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
-    <li class="page-item active"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
-  </ul>
-</nav>
-<div class="form-group">
-  <label class="col-md-4 control-label" for="ad">AD:</label>  
-  <div class="col-md-4">
-  <input id="ad" name="ad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
-    
-  </div>
-</div>
-<div class="form-group">
-  <label class="col-md-4 control-label" for="soyad">SOYAD:</label>  
-  <div class="col-md-4">
-  <input id="soyad" name="soyad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
-    
-  </div>
-</div>
+  <fieldset>
+    <nav aria-label="...">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
+        <li class="page-item"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
+        <li class="page-item active"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
+      </ul>
+    </nav>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="ad">AD:</label>
+      <div class="col-md-4">
+        <input id="ad" name="ad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md" required="">
+
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="soyad">SOYAD:</label>
+      <div class="col-md-4">
+        <input id="soyad" name="soyad" type="text" placeholder="Boş bırakmayınız.." class="form-control input-md"
+          required="">
+
+      </div>
+    </div>
 
     <div class="form-group">
       <label class="col-md-4 control-label" for="tc">TC KİMLİK NO:</label>
@@ -113,5 +116,4 @@
 
     </div>
   </fieldset>
-</form>
-
+  </form>
