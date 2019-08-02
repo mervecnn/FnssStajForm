@@ -4,8 +4,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <form class="form-horizontal">
-
-  <body>
+   <body style = "text-align: center;">  
     <nav aria-label="...">
       <ul class="pagination">
         <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
@@ -28,10 +27,15 @@
     kullanmaktadır.
     Ayrıca arama motorlarında 'lorem ipsum' anahtar sözcükleri ile arama yapıldığında henüz tasarım aşamasında olan çok
     sayıda site listelenir. Yıllar içinde, bazen kazara, bazen bilinçli olarak (örneğin mizah katılarak), çeşitli
-    sürümleri geliştirilmiştir
-<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }"></br>
-<input class="button"   type="checkbox" name="checkbox" value="check" id="agree" />ŞARTLARI KABUL EDİYORUM </br>
- <a href="saglik.php" class="button">gönder</a>
+    sürümleri geliştirilmiştir </br>
+  <form action="#"
+      onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+
+      <input class="button" type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul
+      ediyorum </br>
+<a href="saglik.php" class="button">gönder</a>
+
+</ Form>
  </body>
 
 

@@ -10,7 +10,7 @@
   <form class="form-horizontal" action="saglikkontrol.php" method="Post">
 </head>
 
-<fieldset id="inputs">
+<fieldset id="inputs"  style = "text-align: center;">	
   <nav aria-label="...">
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
@@ -101,8 +101,8 @@
   <div class="form-group">
     <label class="col-md-4 control-label" for="sigara">SİGARA KULLANIYOR MUSUNUZ?:</label>
     <div class="col-md-4">
-      <input id="sigara" name="sigara" type="text" placeholder="Kullanıyorsanız günde kaç tane yazınız.."
-        class="form-control input-md" required="">
+    <input class="button" type="checkbox" name="sigara" id="sigara" /> Kullanıyorum </br>
+ 
     </div>
   </div>
 
@@ -110,7 +110,7 @@
     <form action="#"
       onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
-      <input class="button" type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul
+      <input class="button" type="checkbox" name="checkbox" value="check" id="agree" required/> Bilgilerin doğruluğunu kabul
       ediyorum </br>
       <input class="button" type="submit" name="submit" value="Gönder" />
   </div>

@@ -24,4 +24,5 @@ personel(ad,soyad,dtarihi,email,dyeri,ikametgah,il,ilce,sgkno,iletisimnumarasi,u
 mysqli_close($baglan);
 header("Location: bilgilendirme.php");
 
+
 ?>

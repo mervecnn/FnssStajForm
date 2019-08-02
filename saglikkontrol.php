@@ -7,9 +7,10 @@
 	   $ilac=$_POST["ilac"];
 	   $ameliyat=$_POST["ameliyat"];
 	   $boy=$_POST["boy"];
-	   $sigara=$_POST["sigara"];
+	   $sigara=isset($_POST["sigara"]);
 	   $alerji=$_POST["alerji"];
 	   $tc=$_POST["tc"];
+	   
 $baglan=mysqli_connect("localhost","root","","fnss");
 $sql=mysqli_query($baglan,"INSERT INTO 
 saglik(ad,soyad,dtarihi,telnumarasi,hastalik,ilac,ameliyat,boy,sigara,alerji,tc) VALUES('$ad','$soyad'

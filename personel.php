@@ -9,7 +9,7 @@
   <form class="form-horizontal" action="personelkontrol.php" method="Post">
 </head>
 
-<fieldset id="inputs">
+<fieldset id="inputs"  style = "text-align: center;">
   <nav aria-label="...">
     <ul class="pagination">
       <li class="page-item active"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
@@ -169,7 +169,7 @@
   </div>
   
   <div>
-    <form action="#"
+  <form action="#"
       onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
 
       <input class="button" type="checkbox" name="checkbox" value="check" id="agree" /> Bilgilerin doğruluğunu kabul
