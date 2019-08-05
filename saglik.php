@@ -13,9 +13,9 @@
 <fieldset id="inputs"  style = "text-align: center;">	
   <nav aria-label="...">
     <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="personel.php">Personel Bilgi Formu</a></li>
-      <li class="page-item"><a class="page-link" href="bilgilendirme.php">Bilgilendirme Formu</a></li>
-      <li class="page-item active"><a class="page-link" href="saglik.php">Sağlık Bilgisi Formu</a></li>
+      <li class="page-item"><a class="page-link" href="">Personel Bilgi Formu</a></li>
+      <li class="page-item"><a class="page-link" href="">Bilgilendirme Formu</a></li>
+      <li class="page-item active"><a class="page-link" href="">Sağlık Bilgisi Formu</a></li>
     </ul>
   </nav>
 
