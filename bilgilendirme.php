@@ -31,7 +31,7 @@
   <form>
       <input class="button" type="checkbox" name="checkbox" value="check" id="agree" required/> Bilgilerin doğruluğunu kabul
       ediyorum </br>
-      <input type="button" onClick="location.href='saglik.php'" value="Gönder" />
+      <input type="button" onClick="if (document.getElementById(\'agree\').checked) { document.location.href='saglik.php' }" value="Gönder" />
  </form>
  </body>
 </html>
