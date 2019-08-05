@@ -101,7 +101,7 @@
   <div class="form-group">
     <label class="col-md-4 control-label" for="sigara">SİGARA KULLANIYOR MUSUNUZ?:</label>
     <div class="col-md-4">
-    <input class="button" type="checkbox" name="sigara" id="sigara" /> Kullanıyorum </br>
+    <input class="button" type="checkbox" name="sigara" id="sigara"  required/> Kullanıyorum </br>
  
     </div>
   </div>
